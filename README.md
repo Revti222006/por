@@ -21,6 +21,10 @@ This is a fully custom, multi-page frontend website inspired by the visual style
 - CSS3
 - No frameworks or JavaScript — purely static design
 
+# Demo
+[Click here to watch the demo](https://drive.google.com/file/d/1IF6rJrhkcM0DZiSxEmc1QasYPUSEnQBO/view?usp=sharing)
+
+
 
 
 
