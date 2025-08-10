@@ -10,11 +10,11 @@ This is a fully custom, multi-page frontend website inspired by the visual style
 | **Contact Us**      | Contact form and brand contact details                        |
 
 # Features
--Fully responsive design (if applicable)
--Clean Porsche-themed UI
--Custom layouts for each section/page
--Navigation bar with smooth page access
--CTA buttons and branding elements
+- Fully responsive design (if applicable)
+- Clean Porsche-themed UI
+- Custom layouts for each section/page
+- Navigation bar with smooth page access
+- CTA buttons and branding elements
 
 # Built With
 -HTML5
