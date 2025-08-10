@@ -17,9 +17,9 @@ This is a fully custom, multi-page frontend website inspired by the visual style
 - CTA buttons and branding elements
 
 # Built With
--HTML5
--CSS3
--No frameworks or JavaScript — purely static design
+- HTML5
+- CSS3
+- No frameworks or JavaScript — purely static design
 
 
 
