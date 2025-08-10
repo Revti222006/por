@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogs</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Noto+Sans+Devanagari:wght@100..900&family=Nunito:wght@200..1000&family=Roboto:wght@100..900&family=Ancizar+Serif:wght@300..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="header">
+    <header class="header_content">
+      <a href="#logo" class="logo">
+        <img src="logo.png" alt="logo" class="logo_icon" />
+        <span class="logo_text">PORSCHE</span>
+      </a>
+      <nav class="nav">
+        <a href="#home" class="nav_link">Home</a>
+        <a href="#models" class="nav_link">Models</a>
+        <a href="#brand" class="nav_link">Brand</a>
+        <a href="#services" class="nav_link">Services</a>
+        <a href="#brand" class="nav_link">Brand</a>
+      </nav>
+      <a href="#login" class="login_button">Login</a>
+      <button type="button" class="menu_button">
+        <img src="menu.png" alt="menu" class="menu_icon" />
+      </button>
+    </header>
+  </div>
+  
+  <section class="first_page">
+  <div class="text_div">
+    <div class="heading">
+      <h2>UNLEASH THE POWER</h2>
+      <h2>OF PRECISION</h2>
+    </div>
+    <div class="para1">
+      <p class="line_1">Porsche redefines driving with timeless design and engineering.</p>
+      <p class="line_2">Experience precision, power, and thrill in every turn.</p>
+    </div>
+    <div class="explore_button">
+      <button>Explore Models</button>
+    </div>
+  </div>
 
+  <div class="car-wrapper">
+    <div class="white-ring"></div>
+    <img src="car.png" class="car" />
+  </div>
+  <div class="front-glow"></div>
+</section> 
+<section class="second_page">
+  <div class="page_2">
+    <h2>RECOMMENDATIONS</h2>
+  </div>
+
+  <div class="container">
+  <div class="car-box">
+    <div class="video-wrapper">
+      <video autoplay muted loop>
+        <source src="macan.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="model-label"></div>
+    <div class="text_overlay">
+      <h3 class="car-model">Macan GTS</h3>
+      <p class="car-desc">Compact SUV with aggressive dynamics and full Porsche DNA.</p>
+    </div>
+  </div>
+
+  <div class="car-box">
+    <div class="video-wrapper">
+      <video autoplay muted loop>
+        <source src="taycan.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="model-label"></div>
+    <div class="text_overlay">
+      <h3 class="car-model">Taycan Turbo S</h3>
+      <p class="car-desc">Electric power with Porsche performance. The future is now.</p>
+    </div>
+  </div>
+
+  <div class="car-box">
+    <div class="video-wrapper">
+      <video autoplay muted loop>
+        <source src="718.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="model-label"></div>
+    <div class="text_overlay">
+      <h3 class="car-model">718</h3>
+      <p class="car-desc">Mid-engine balance, sharp handling, pure sports heritage.</p>
+    </div>
+  </div>
+
+  <div class="car-box">
+    <div class="video-wrapper">
+      <video autoplay muted loop>
+        <source src="911.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="model-label"></div>
+    <div class="text_overlay">
+      <h3 class="car-model"><u>911 Turbo S</u></h3>
+      <p class="car-desc">Lightweight legend, raw power, pure driving thrill.</p>
+    </div>
+  </div>
+</div> <!-- end of .container -->
+
+<div class="explore_categories">
+  <h2>Explore Categories</h2>
+</div>
+<div class="categories_container">
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">🚗</div>
+          <div class="category_title">Models</div>
+        </div>
+      </div>
+
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">🔧</div>
+          <div class="category_title">Services</div>
+        </div>
+      </div>
+
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">🏆</div>
+          <div class="category_title">Awards</div>
+        </div>
+      </div>
+
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">📰</div>
+          <div class="category_title">News</div>
+        </div>
+      </div>
+
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">🎪</div>
+          <div class="category_title">Events</div>
+        </div>
+      </div>
+
+      <div class="category_card">
+        <div class="hexagon">
+          <div class="category_icon">🌟</div>
+          <div class="category_title">Lifestyle</div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="contact_page">
+    <div class="contact_content">
+      <h2 class="contact_title">Get In Touch</h2>
+      <!-- <p class="contact_subtitle"></p> -->
+      
+      <form class="contact_form">
+        <div class="form_group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+        
+        <div class="form_group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+        
+        <div class="form_group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+        
+        <div class="form_group">
+          <label for="interest">Area of Interest</label>
+          <input type="text" id="interest" name="interest" placeholder="e.g., Test Drive, Service, Purchase">
+        </div>
+        
+        <div class="form_group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us how we can help you..."></textarea>
+        </div>
+        
+        <button type="submit" class="submit_button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  
+</section>
+</body>
+</html>
